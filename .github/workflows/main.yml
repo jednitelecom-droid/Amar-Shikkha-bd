@@ -18,7 +18,7 @@ jobs:
 
       - name: Extract uploaded project ZIP
         run: |
-          unzip -q source.zip -d extracted
+          unzip -q Source.zip -d extracted
           test -f extracted/amar_shikkha_src/settings.gradle.kts
 
       - name: Set up JDK 17
